@@ -16,7 +16,7 @@
         
         
         
-        <div class="form_group">
+        <div class="form-group">
             
             
 <%= f.label :name, 'Name' %>
@@ -29,7 +29,7 @@
         </div>
         
         
-        <div class="form_group">
+        <div class="form-group">
             
             
             
@@ -44,7 +44,19 @@
         </div>
         
         
-        <div class="form_group">
+        <div class="form-group">
+            
+            
+<%= f.label :password, 'Password' %>
+
+
+<%= f.password_field :password, class: 'form-control' %>
+            
+            
+        </div>
+        
+        
+        <div class="form-group">
             
             
 <%= f.label :password_confirmation, 'Confirmation' %>
